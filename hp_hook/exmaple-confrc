@@ -1,0 +1,12 @@
+[hook]
+write path: /var/www/html/pub/bootdisk_hook/
+uefi iso: True
+
+[satellite]
+hostname: sat6.example.com
+username: admin
+password: changeme
+
+[HP API]
+username: admin
+password: changeme

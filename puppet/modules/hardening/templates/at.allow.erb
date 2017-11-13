@@ -1,0 +1,8 @@
+###################################
+### at.allow: Managed by puppet ###
+###################################
+<% if @cron_allow_users -%>
+<% [@cron_allow_users].flatten.each do |user| -%>
+<%= user %>
+<% end -%>
+<% end -%>
